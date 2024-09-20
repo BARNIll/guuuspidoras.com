@@ -1,0 +1,29 @@
+body {
+    background-color: #808080; /* Серый фон */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#clickableImage {
+    width: 300px; /* Размер изображения */
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Анимация при клике */
+}
+
+#clickableImage.clicked {
+    transform: scale(1.1); /* Увеличение изображения при клике */
+}
